@@ -1,0 +1,109 @@
+body{
+    background-color:hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    font-family: 'Outfit';
+}
+
+#Card {
+    width: 350px;
+    height: 596px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    
+}
+.CardDiv:hover .mainImg{
+    cursor: pointer;
+}
+.CardDiv:hover .iconImg{
+    display: block;
+    cursor: pointer;
+
+}
+.CardDiv:hover .overlay{
+    visibility: visible;
+
+}
+.CardDiv{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.mainImg{
+    width: 302px;
+    height: 302px;
+    margin-top: 24px;
+    border-radius: 8px;
+}
+
+.iconImg{
+    position: absolute;
+    top: 44%;
+    left:45%;
+    display: none;
+}
+.overlay{
+    position: absolute;
+    width: 302px;
+    height: 302px;
+    background-color:turquoise;
+    visibility: hidden;
+    opacity: 0.5;
+    margin-top: 24px;
+    border-radius: 10px;
+
+}
+.Texts{
+    padding: 24px;
+}
+   
+.Heading1{
+    color: white;
+    font-weight:600;
+    font-size: 22px;
+    padding-bottom: 16px;
+}
+.Heading2{
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-weight: 300;
+    padding-bottom: 24px;
+}
+.Indicator{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 24px;
+}
+.Heading3{
+    color: hsl(178, 100%, 50%);
+    font-size: 18px;
+    font-weight: 400;
+}
+.Heading4{
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-weight: 400;
+}
+.Line{
+    color: hsl(215, 51%, 70%);
+    width: 100%;
+    height: 1px;
+    border: 1px solid;
+}
+.Footer{
+    padding-top: 16px;
+    display: flex;
+    align-items: center;
+}
+.AvatarImg{
+    height: 33px;
+    padding-right: 16px;
+}
+.FText1{
+    color: hsl(215, 51%, 70%);
+
+}
+.FText2{
+    color: white;
+    padding-left: 5px;
+}
